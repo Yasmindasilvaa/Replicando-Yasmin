@@ -1,0 +1,19 @@
+
+
+.carousel {
+    display: flex;
+    width: 1700px;
+    gap: 10px;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 8px;
+    margin: 10px; 
+}
+
+.carousel img {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: antiquewhite;
+}

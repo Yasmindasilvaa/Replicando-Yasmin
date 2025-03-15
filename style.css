@@ -5,6 +5,7 @@ body {
 .container {
     max-width: 2900px;
     margin: 0 auto;
+    position: relative
 }
 
 .amarelo {
@@ -37,6 +38,13 @@ body {
 
 }
 
+.flexivel h1 {
+    color: rgb(56, 57, 57);
+    text-align: center;
+    width: 600px;
+    font-size:400%;
+}
+
 .esticar {
     padding-bottom: 400px; 
 }
@@ -62,3 +70,10 @@ body {
 
 }
 
+.amarelo .alongar img {
+    width: 900px;
+    margin:5px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 20px;
+}

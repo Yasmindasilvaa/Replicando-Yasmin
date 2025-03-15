@@ -1,3 +1,7 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
     background-color: whitesmoke;
 }
@@ -5,7 +9,7 @@ body {
 .container {
     max-width: 2900px;
     margin: 0 auto;
-    position: relative
+    position: relative;
 }
 
 .amarelo {
@@ -15,13 +19,15 @@ body {
     box-sizing: border-box;
     border-radius: 5px;
 }
-.alongar{
+
+.alongar {
     padding-right: 700px;
+    width: 100%; /* Garante que todos os alongar tenham a mesma largura */
 }
+
 .flexivel {
     display: flex;
     gap: 5rem;
-    
 }
 
 .Quadrado {
@@ -31,24 +37,65 @@ body {
     height: 300px;
     margin: 10px;
     margin-right: 600px;
-    background-color:lightblue;
+    background-color: lightblue;
     color: blue;
-    box-sizing:border-box;
+    box-sizing: border-box;
     border-radius: 10px;
-
 }
 
 .flexivel h1 {
     color: rgb(56, 57, 57);
     text-align: center;
     width: 600px;
-    font-size:400%;
+    font-size: 400%;
 }
 
-.esticar {
-    padding-bottom: 400px; 
+/* Menu Azul com Abas */
+.menu-azul {
+    width: 200px;
+    background-color: rgb(0, 0, 139);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
 }
 
+.menu-azul ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-azul ul li {
+    margin-bottom: 10px;
+}
+
+.menu-azul ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-azul ul li a:hover {
+    background-color: rgb(0, 0, 255);
+}
+
+/* Ajustes nos Quadrados dentro dos Retângulos Amarelos */
+.Quadrado img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.Quadrado h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Carrossel */
 .carousel {
     margin: 10px;
     display: flex;
@@ -57,7 +104,6 @@ body {
     text-align: center;
     background-color: lightblue;
     border-radius: 10px;
-    
 }
 
 .carousel img {
@@ -67,12 +113,11 @@ body {
     border-radius: 10px;
     padding: 10px;
     background-color: antiquewhite;
-
 }
 
 .amarelo .alongar img {
     width: 900px;
-    margin:5px;
+    margin: 5px;
     box-sizing: border-box;
     background-color: aliceblue;
     border-radius: 20px;

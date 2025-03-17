@@ -32,7 +32,7 @@ body {
 
 .Quadrado {
     display: flex;
-    width: 1155px;
+    width: 1200px;
     padding: 20px;
     height: 300px;
     margin: 10px;
@@ -52,7 +52,7 @@ body {
 
 /* Menu Azul com Abas */
 .menu-azul {
-    width: 200px;
+    width: 600px;
     background-color: rgb(0, 0, 139);
     padding: 20px;
     border-radius: 10px;

@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    max-width: 2900px;
+    max-width: 3000px;
     margin: 0 auto;
     position: relative;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .alongar {
-    padding-right: 700px;
+    padding-right: 650px;
     width: 100%; /* Garante que todos os alongar tenham a mesma largura */
 }
 
